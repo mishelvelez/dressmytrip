@@ -9,6 +9,8 @@ gem 'rails', '4.2.5'
 gem 'pg'
 # Use SCSS for stylesheets
 
+# Add 12 factor for Heroku
+gem 'rails_12factor', group: :production
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
